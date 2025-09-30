@@ -1,0 +1,1 @@
+cmd_/home/tieuchi/Desktop/BBB_project/Hello_kernel/hello-kernel.mod := printf '%s\n'   hello-kernel.o | awk '!x[$$0]++ { print("/home/tieuchi/Desktop/BBB_project/Hello_kernel/"$$0) }' > /home/tieuchi/Desktop/BBB_project/Hello_kernel/hello-kernel.mod

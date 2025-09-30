@@ -1,0 +1,1 @@
+cmd_/home/tieuchi/Desktop/BBB_project/Hello_kernel/modules.order := {   echo /home/tieuchi/Desktop/BBB_project/Hello_kernel/hello-kernel.ko; :; } > /home/tieuchi/Desktop/BBB_project/Hello_kernel/modules.order

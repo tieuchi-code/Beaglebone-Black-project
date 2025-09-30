@@ -1,0 +1,1 @@
+cmd_/home/tieuchi/Desktop/BBB_project/Hello_kernel/Module.symvers :=  sed 's/ko$$/o/'  /home/tieuchi/Desktop/BBB_project/Hello_kernel/modules.order | scripts/mod/modpost       -o /home/tieuchi/Desktop/BBB_project/Hello_kernel/Module.symvers -e -i Module.symvers -T - 
