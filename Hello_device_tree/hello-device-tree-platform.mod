@@ -1,0 +1,1 @@
+/home/tieuchi/Desktop/BBB_project/Hello_device_tree/hello-device-tree-platform.o

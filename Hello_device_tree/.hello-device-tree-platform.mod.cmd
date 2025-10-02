@@ -1,0 +1,1 @@
+cmd_/home/tieuchi/Desktop/BBB_project/Hello_device_tree/hello-device-tree-platform.mod := printf '%s\n'   hello-device-tree-platform.o | awk '!x[$$0]++ { print("/home/tieuchi/Desktop/BBB_project/Hello_device_tree/"$$0) }' > /home/tieuchi/Desktop/BBB_project/Hello_device_tree/hello-device-tree-platform.mod

@@ -1,4 +1,4 @@
-obj-m := hello-device-tree.o
+obj-m := hello-device-tree-platform.o
 KERNELDIR=/home/tieuchi/ti-processor-sdk-linux-am335x-evm-09.03.05.02/board-support/ti-linux-kernel-6.1.119+gitAUTOINC+c490f4c0fe-ti
 CURRENTDIR=$(shell pwd)
 CROSS=/home/tieuchi/ti-processor-sdk-linux-am335x-evm-09.03.05.02/external-toolchain-dir/arm-gnu-toolchain-11.3.rel1-x86_64-arm-none-linux-gnueabihf/bin/arm-none-linux-gnueabihf-
@@ -6,7 +6,7 @@ CROSS=/home/tieuchi/ti-processor-sdk-linux-am335x-evm-09.03.05.02/external-toolc
 all:
 	$(MAKE) -C $(KERNELDIR) M=$(CURRENTDIR) ARCH=arm CROSS_COMPILE=$(CROSS) modules
 install:
-	scp hello-device-tree.ko root@192.168.8.8:/home/root
+	scp hello-device-tree-platform.ko root@192.168.8.8:/home/root
 clean:
 	$(MAKE) -C $(KERNELDIR) M=$(CURRENTDIR) ARCH=arm CROSS_COMPILE=$(CROSS) clean
 help:
