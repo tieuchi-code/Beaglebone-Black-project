@@ -1,1 +1,0 @@
-cmd_/home/tieuchi/Desktop/BBB_project/Hello_device_tree/modules.order := {   echo /home/tieuchi/Desktop/BBB_project/Hello_device_tree/hello-device-tree-platform.ko; :; } > /home/tieuchi/Desktop/BBB_project/Hello_device_tree/modules.order
