@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>Taplo_GUi.jpeg</file>
+        <file>Re-Trai.jpg</file>
+    </qresource>
+</RCC>

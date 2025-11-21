@@ -16,6 +16,8 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
+    Q_INVOKABLE void setLabel2Visible(bool on);
+    static MainWindow *instance;
 
 private:
     Ui::MainWindow *ui;
